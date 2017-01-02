@@ -1,0 +1,25 @@
+{
+  "name": "bmtc-app",
+  "version": "1.0.0",
+  "description": "BMTC App provides offline access to route information thereby giving a great User Experience to passengers traveling on local buses across Bangalore, with no install required. It is reliable, fast, engaging and is extremely useful in regions where networks are slow, expensive or poorly available.",
+  "main": "",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --open",
+    "build": "webpack --config webpack.config.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.26.1",
+    "extract-text-webpack-plugin": "^2.0.0-beta",
+    "html-webpack-plugin": "^2.25.0",
+    "image-webpack-loader": "^3.1.0",
+    "offline-plugin": "^4.5.3",
+    "style-loader": "^0.13.1",
+    "uglifyjs": "latest",
+    "webpack": "beta",
+    "webpack-dev-server": "beta"
+  }
+}
